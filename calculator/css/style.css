@@ -1,0 +1,220 @@
+/* $pink: #ff33cc;
+$black: #455A64; */
+
+*{
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    transition: .1s linear;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background: url(/img/top-view-blue-calculator-notepad-color-background_260672-4055.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    background: rgba(0,0,0,.5);
+    height: 45rem;
+    width: 45rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem #333;
+}
+
+form {
+    height: 90%;
+    width: 90%;
+}
+
+input[type="text"] {
+    width: calc(100% - .5rem);
+    height: 5rem;
+    border: none;
+    outline: none;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0 2rem;
+    margin: 1rem 0;
+}
+
+input[type="button"] {
+    border: none;
+    outline: none;
+    height: 6rem;
+    width: 8rem;
+    margin: .35rem;
+    background: rgba(255, 255, 255, .7);
+    cursor: pointer;
+    color: #333;
+    font-size: 2.5rem;
+}
+
+input[type="button"]:active {
+    background:rgba(0,0,0,.5);
+    color: #fff;
+}
+
+input[type="button"].total {
+    width: 26rem;
+    background:rgba(255,0,0,.5);
+    color: #fff;
+}
+
+input[type="button"].total:active {
+    background:rgba(0,0,0,.5);
+}
+
+@media screen and (max-width: 1050px) {
+    body {
+        height: 100vh;
+        background: url(/img/top-view-blue-calculator-notepad-color-background_260672-4055.avif) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        grid-gap: 5rem;
+     }
+    .container {
+        display: grid;
+        place-items: center;
+        background: rgba(0,0,0,.5);
+        height: 30rem;
+        width: 30rem;
+        border-radius: .5rem;
+        box-shadow: 0 0 1rem #333;
+    }
+    form {
+        height: 100%;
+        width: 95%;
+    }
+
+    input[type="text"] {
+        width: calc(100% - .5rem);
+        height: 5rem;
+        border: none;
+        outline: none;
+        background: rgba(0,0,0,.5);
+        color: #fff;
+        font-size: 2.5rem;
+        padding: 0 2rem;
+        margin: 1rem 0;
+    }
+    input[type="button"] {
+        border: none;
+        outline: none;
+        height: 4rem;
+        width: 5rem;
+        margin: .25rem;
+        background: rgba(255, 255, 255, .7);
+        cursor: pointer;
+        color: #333;
+        font-size: 2.5rem;
+    }
+    input[type="button"]:active {
+        background:rgba(0,0,0,.5);
+        color: #fff;
+    }
+    
+    input[type="button"].total {
+        width: 20rem;
+        background:rgba(255,0,0,.5);
+        color: #fff;
+    }
+    
+    input[type="button"].total:active {
+        background:rgba(0,0,0,.5);
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        height: 100vh;
+        background: url(/img/pngtree-cartoon-satellite-ruler-calculator-linear-education-background-picture-image_1458755.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        grid-gap: 5rem;
+     }
+    .container {
+        display: grid;
+        place-items: center;
+        background: rgba(20, 20, 20, 0.5);
+        height: 40rem;
+        width: 40rem;
+        border-radius: .5rem;
+        box-shadow: 0 0 1rem #151414;
+    }
+    form {
+        height: 95%;
+        width: 95%;
+    }
+
+    input[type="text"] {
+        width: calc(100% - .5rem);
+        height: 5rem;
+        border: none;
+        outline: none;
+        background: rgba(0,0,0,.5);
+        color: #fff;
+        font-size: 2.5rem;
+        padding: 0 2rem;
+        margin: 1rem 0;
+    }
+    input[type="button"] {
+        border: none;
+        outline: none;
+        height: 5rem;
+        width: 8rem;
+        margin: .35rem;
+        background: rgba(255, 255, 255, .7);
+        cursor: pointer;
+        color: #333;
+        font-size: 2.5rem;
+    }
+    input[type="button"]:active {
+        background:rgba(0,0,0,.5);
+        color: #fff;
+    }
+    
+    input[type="button"].total {
+        width: 26rem;
+        background:rgba(255,0,0,.5);
+        color: #fff;
+    }
+    
+    input[type="button"].total:active {
+        background:rgba(0,0,0,.5);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    input[type="button"].total {
+        width: 25rem;
+        background:rgba(255,0,0,.5);
+        color: #fff;
+    }
+}
